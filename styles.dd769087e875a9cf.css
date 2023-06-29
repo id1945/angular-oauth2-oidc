@@ -1,0 +1,37 @@
+/*!**********************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[5].rules[0].oneOf[0].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[5].rules[0].oneOf[0].use[2]!./src/styles.css?ngGlobalStyle ***!
+  \**********************************************************************************************************************************************************************************************************************/
+.authenticating-loader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  font-size: 5rem;
+  background: #fff;
+  opacity: 0.8;
+  animation: pulsate 0.4s infinite alternate linear;
+}
+
+@keyframes pulsate {
+  from { opacity: 1.0; }
+  to { opacity: 0.2; }
+}
+
+.pre {
+  white-space: pre;
+}
+
+.break-all {
+  word-break: break-all;
+}
+
+.table-props tr th {
+  width: 1px;
+}
+
+
+/*# sourceMappingURL=styles.dd769087e875a9cf.css.map*/
