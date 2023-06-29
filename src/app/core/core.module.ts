@@ -5,8 +5,8 @@ import { AuthGuardWithForcedLogin } from './auth-guard-with-forced-login.service
 import { AuthGuard } from './auth-guard.service';
 import { AuthService } from './auth.service';
 
-const authAppInitializerFactory = (authService: AuthService):Promise<void> =>   {
-  return authService.runInitialLoginSequence();
+function authAppInitializerFactory(authService: AuthService): () => Promise<void> {
+  return () => authService.runInitialLoginSequence();
 }
 
 const authConfig: AuthConfig = {
